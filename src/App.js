@@ -13,7 +13,6 @@ function App() {
           <Route  path='/' element={<Home />} />
           <Route path='movie/:id' element={<Movie />} />
           <Route path='movies/:type' element={<MovieList />} />
-          <Route path='/*' element={<h1>Error Page</h1>} />
         </Routes>
     </div>
   );
